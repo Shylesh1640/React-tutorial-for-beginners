@@ -1,0 +1,94 @@
+⚙️ 1. Prerequisites (for all OS)
+
+Before you start:
+
+Node.js ≥ 18 must be installed
+
+Check:
+
+node -v
+npm -v
+
+
+If not installed, download from https://nodejs.org
+
+🪟 For Windows (Command Prompt / PowerShell)
+# 1️⃣ Navigate to your desired folder
+cd Desktop
+
+# 2️⃣ Create a new Vite + React project
+npm create vite@latest my-react-app -- --template react
+
+# 3️⃣ Move into the project directory
+cd my-react-app
+
+# 4️⃣ Install dependencies
+npm install
+
+# 5️⃣ Start the development server
+npm run dev
+
+
+💡 Tip:
+If using PowerShell, make sure execution policy allows scripts:
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+🍎 For macOS (Terminal / iTerm)
+# 1️⃣ Navigate to your desired folder
+cd ~/Desktop
+
+# 2️⃣ Create a new React project using Vite
+npm create vite@latest my-react-app -- --template react
+
+# 3️⃣ Go into the project folder
+cd my-react-app
+
+# 4️⃣ Install dependencies
+npm install
+
+# 5️⃣ Start the dev server
+npm run dev
+
+
+💡 Optional: Use pnpm or yarn instead of npm
+Example:
+
+pnpm create vite my-react-app --template react
+
+🐧 For Linux (Ubuntu, Fedora, etc.)
+# 1️⃣ Update and install Node.js (if needed)
+sudo apt update
+sudo apt install nodejs npm -y
+
+# 2️⃣ Verify installation
+node -v
+npm -v
+
+# 3️⃣ Create Vite + React project
+npm create vite@latest my-react-app -- --template react
+
+# 4️⃣ Move to project folder
+cd my-react-app
+
+# 5️⃣ Install dependencies
+npm install
+
+# 6️⃣ Start development server
+npm run dev
+
+
+💡 Note:
+If you face permission errors, prefix with sudo or fix npm permissions:
+
+sudo chown -R $USER:$GROUP ~/.npm
+
+🚀 Run the Project
+
+Once npm run dev runs successfully, you’ll see output like:
+
+  VITE vX.X.X  ready in 500ms
+  ➜  Local:   http://localhost:5173/
+
+
+Open that URL in your browser to view your React app 🎉
