@@ -22,6 +22,6 @@ Usergreet.propTypes = {
 }
 Usergreet.defaultProps = {
     isloggedIn: false,
-    username: "Guest"
+    username: "Guest", 
 }
 export default Usergreet
