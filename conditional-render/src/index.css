@@ -1,0 +1,18 @@
+.logedin{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  background-color: lime;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+
+}
+.login{
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  background-color: red;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+
+}
