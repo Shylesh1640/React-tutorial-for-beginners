@@ -22,4 +22,6 @@ Student.defaultProps = {
     age: 0,
     grade: "N/A"
 }
+
+
 export default Student
