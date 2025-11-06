@@ -1,0 +1,22 @@
+.list_category {
+    text-transform: uppercase;
+    color: #0271df;
+    margin-bottom: 10px;
+    font-size: 2em;
+    font-weight: bold;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+.list_items li{
+    font-size: 25px;
+    list-style: none;
+    color: rgb(200, 51, 128);
+    margin: 0px;
+}
+
+.list_items li:hover{
+    color: chartreuse;
+    cursor: pointer;
+}

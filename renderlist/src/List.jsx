@@ -1,11 +1,16 @@
+import Proptypes from 'proptypes';
 
-function List(){
+function List(props){
 
-    const fruits = [{id: 1, name:"Mango",calories:60},
-                    {id: 2, name:"Apple",calories:40},
-                    {id: 3, name:"Banana",calories:50},
-                    {id: 4, name:"Grapes",calories:70},
-                    {id: 5, name:"Orange",calories:30}];
+    const categorey = props.categorey;
+
+    const itemlist = props.items;
+
+    // const fruits = [{id: 1, name:"Mango",calories:60},
+    //                 {id: 2, name:"Apple",calories:40},
+    //                 {id: 3, name:"Banana",calories:50},
+    //                 {id: 4, name:"Grapes",calories:70},
+    //                 {id: 5, name:"Orange",calories:30}];
     //alphabetical order
     //fruits.sort((a,b)=>a.name.localeCompare(b.name));
     //reverse alphabetical order
@@ -21,14 +26,34 @@ function List(){
 
     //const listItems = lowcalfruits.map((lowcalfruits)=><li key={lowcalfruits.id}>{lowcalfruits.name}:&nbsp;<b>{lowcalfruits.calories}</b></li>);
 
-    const highcalfruits = fruits.filter((fruit)=> fruit.calories >= 50);
+    //const highcalfruits = fruits.filter((fruit)=> fruit.calories >= 50);
 
-    const listItems = highcalfruits.map((highcalfruits)=><li key={highcalfruits.id}>{highcalfruits.name}:&nbsp;<b>{highcalfruits.calories}</b></li>);
+    //const listItems = highcalfruits.map((highcalfruits)=><li key={highcalfruits.id}>{highcalfruits.name}:&nbsp;<b>{highcalfruits.calories}</b></li>);
     
-    //const listItems = fruits.map((fruits)=><li key={fruits.id}>{fruits.name}:&nbsp;<b>{fruits.calories}</b></li>);
+    const listItems = itemlist.map((item)=><li key={item.id}>{item.name}:&nbsp;<b>{item.calories}</b></li>);
 
 
-    return(<ol>{listItems}</ol>);
+    return(
+        <>
+            <h3 className="list_category">{categorey}</h3>
+            <ol className="list_items">{listItems}</ol>
+        </>
+    
+    );
 
 }
+List.PropTypes = {
+    categorey: Proptypes.string,
+    item: Proptypes.arrayof(Proptypes.shape({id: Proptypes.number,
+        name: Proptypes.string,
+        calories: Proptypes.number
+    })),
+
+}
+
+List.defaultProps = {
+    categorey:"Category",
+    items: [],
+}
+
 export default List
