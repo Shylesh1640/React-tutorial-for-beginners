@@ -1,0 +1,26 @@
+.counter{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.count-display {
+    font-size: 5em;
+    margin-bottom: 20px;
+}
+.counter button{
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px 5px;
+    cursor: pointer;
+    background-color: rgb(17, 111, 118);
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+}
+.counter button:hover{
+    background-color: rgb(2, 12, 13);
+}
