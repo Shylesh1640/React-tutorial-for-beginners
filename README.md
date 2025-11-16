@@ -21,6 +21,8 @@ Each folder in this repository is a self-contained lesson:
 *   `properties`: Understanding and using props to pass data.
 *   `conditional-render`: How to render components conditionally.
 *   `renderlist`: How to render lists of data.
+*   `clickevents`: Handling user events like clicks.
+*   `usestatehook`: Managing component state with the `useState` hook.
 
 ## 🛠️ Getting Started
 
