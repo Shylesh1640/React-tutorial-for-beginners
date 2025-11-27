@@ -20,9 +20,14 @@ Each folder in this repository is a self-contained lesson:
 *   `adding_css`: Different ways to style your components.
 *   `properties`: Understanding and using props to pass data.
 *   `conditional-render`: How to render components conditionally.
-*   `renderlist`: How to render lists of data.
-*   `clickevents`: Handling user events like clicks.
+*   `renderlist`: How to render lists of data. 
 *   `usestatehook`: Managing component state with the `useState` hook.
+*   `clickevents`: Handling user events like clicks.
+*   `onchangeeventhandler`: Handling `onChange` events in forms.
+*   `updater`: Using updater functions with `useState` for safe state updates.
+*   `object_state`: Managing object state with the `useState` hook.
+*   `update_array`: How to update arrays in state.
+*   `colorpicker`: Building a simple color picker application.
 
 ## 🛠️ Getting Started
 
