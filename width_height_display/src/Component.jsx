@@ -13,7 +13,7 @@ function Component() {
     useEffect(() => {
         window.addEventListener('resize', updateDimensions);
         console.log("Event Listener Added");
-
+                    
         return () =>{
             window.removeEventListener('resize', updateDimensions);
             console.log("Event Listener Removed");
