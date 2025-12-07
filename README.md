@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/React-v18.2.0-blue?style=for-the-badge&logo=react" alt="React Version" />
   <img src="https://img.shields.io/badge/Vite-latest-purple?style=for-the-badge&logo=vite" alt="Vite" />
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License" />
-  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=for-the-badge" alt="Status" />
+  <img src="https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge" alt="Status" />
 </p>
 
 Welcome to the React Tutorial for Beginners! 🎉 This repository is designed to be your friendly guide into the world of React. If you're looking to build modern, fast, and scalable web applications, you've come to the right place.
