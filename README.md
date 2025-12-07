@@ -13,21 +13,31 @@ This tutorial is broken down into several mini-projects, each in its own directo
 
 ## 📚 Topics Covered
 
-Each folder in this repository is a self-contained lesson:
+Each folder in this repository is a self-contained lesson. Here's a breakdown of the topics covered:
 
-*   `reactbasictutorial`: The fundamentals of React and JSX.
-*   `card-component`: Building your first reusable component.
-*   `adding_css`: Different ways to style your components.
-*   `properties`: Understanding and using props to pass data.
-*   `conditional-render`: How to render components conditionally.
-*   `renderlist`: How to render lists of data. 
-*   `usestatehook`: Managing component state with the `useState` hook.
-*   `clickevents`: Handling user events like clicks.
-*   `onchangeeventhandler`: Handling `onChange` events in forms.
-*   `updater`: Using updater functions with `useState` for safe state updates.
-*   `object_state`: Managing object state with the `useState` hook.
-*   `update_array`: How to update arrays in state.
-*   `colorpicker`: Building a simple color picker application.
+| Project                  | Description                                                              |
+| ------------------------ | ------------------------------------------------------------------------ |
+| `reactbasictutorial`     | The fundamentals of React and JSX.                                       |
+| `card-component`         | Building your first reusable component.                                  |
+| `adding_css`             | Different ways to style your components.                                 |
+| `properties`             | Understanding and using props to pass data.                              |
+| `conditional-render`     | How to render components conditionally.                                  |
+| `renderlist`             | How to render lists of data.                                             |
+| `usestatehook`           | Managing component state with the `useState` hook.                       |
+| `clickevents`            | Handling user events like clicks.                                        |
+| `onchangeeventhandler`   | Handling `onChange` events in forms.                                     |
+| `updater`                | Using updater functions with `useState` for safe state updates.          |
+| `object_state`           | Managing object state with the `useState` hook.                          |
+| `update_array`           | How to update arrays in state.                                           |
+| `update_array_objects`   | How to update arrays of objects in state.                                |
+| `colorpicker`            | Building a simple color picker application.                              |
+| `digital_clock`          | Creating a real-time digital clock.                                      |
+| `stop_watch`             | Building a functional stopwatch.                                         |
+| `to_do_list_app`         | A classic to-do list application to practice CRUD operations.            |
+| `use_effect`             | Understanding the `useEffect` hook for side effects.                     |
+| `width_height_display`   | Displaying window width and height using `useEffect`.                    |
+| `usecontext`             | Managing global state with the `useContext` hook.                        |
+| `useref_hook`            | Using the `useRef` hook to access DOM elements and persist values.       |
 
 ## 🛠️ Getting Started
 
