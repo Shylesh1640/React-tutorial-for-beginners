@@ -21,3 +21,32 @@ body{
     text-shadow: 2px 2px 2px hsl(0, 0%, 0%, 0.75);
     margin-bottom: 25px;
 }
+.controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s, ease;
+}
+.start{
+    background-color: hsl(115, 100%, 40%);
+}
+.start:hover{
+    background-color: hsl(115, 100%, 30%);
+}
+.stop{
+    background-color: hsl(0, 90%, 50%);
+}
+.stop:hover{
+    background-color: hsl(0, 80%, 40%);
+}
+.reset{
+    background-color: hsl(205, 90%, 60%);
+}
+.reset:hover{
+    background-color: hsl(205, 90%, 55%);
+}

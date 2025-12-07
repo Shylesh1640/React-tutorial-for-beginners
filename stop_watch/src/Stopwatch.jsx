@@ -8,23 +8,44 @@ function Stopwatch() {
     const starttimeref = useRef (0);
 
     useEffect (()=>{
+        if (isrunning){
+            intervalref.current = setInterval (()=> {
+                setelapsedtime (Date.now() - starttimeref.current);
+
+            },10);
+        }
+
+        return() =>{
+            clearInterval (intervalref.current);
+        }
 
     },[isrunning]);
 
     function start(){
 
+        setisrunning(true);
+        starttimeref.current = Date.now() - elapsedtime;
+
     }
 
     function stop(){
+        setisrunning(false);
 
     }
 
     function reset(){
+        setelapsedtime (0);
+        setisrunning(false);
 
     }
 
     function formattime(){
-        return "00:00:00";
+
+        let hours = Math.floor (elapsedtime / 3600000);
+        let minutes = Math.floor ((elapsedtime % 3600000) / 60000);
+        let seconds = Math.floor ((elapsedtime % 60000) / 1000);
+        let milliseconds = Math.floor ((elapsedtime % 1000) / 10);
+        return `${hours.toString().padStart(2,'0')}:${minutes.toString().padStart(2,'0')}:${seconds.toString().padStart(2,'0')}:${milliseconds.toString().padStart(2,'0')}`;
 
     }
 
